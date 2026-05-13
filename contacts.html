@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="AzeShop ilə əlaqə saxlayın — suallarınızı, sifarişlərinizi və ya rəylərinizi bizə göndərin.">
+    <title>AzeShop — Əlaqə</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav__container">
+            <a href="index.html" class="nav__logo">AzeShop</a>
+            <nav>
+                <a href="index.html">Ana Səhifə</a>
+                <a href="products.html">Məhsullar</a>
+                <a href="contacts.html" class="nav__cta active">Əlaqə</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <div class="page-hero">
+            <h1>Bizimlə <span>Əlaqə</span></h1>
+            <p>Sualınız, sifarişiniz və ya rəyiniz var? Biz həmişə kömək etməyə hazırıq!</p>
+        </div>
+
+        <!-- Contact Info Cards -->
+        <div class="stats" style="margin-bottom: 48px;">
+            <div class="stat-card">
+                <div class="stat-card__num">📍</div>
+                <div class="stat-card__lbl">Bakı, Azərbaycan<br>Nizami küçəsi 45</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card__num">📞</div>
+                <div class="stat-card__lbl">+994 50 123 45 67<br>Bazar ertəsi – Şənbə</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card__num">✉️</div>
+                <div class="stat-card__lbl">info@AzeShop.az<br>24 saat ərzində cavab</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card__num">🕐</div>
+                <div class="stat-card__lbl">09:00 – 19:00<br>İş saatları</div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-wrap">
+            <div class="section-title">
+                <h2>Mesaj <span>Göndər</span></h2>
+                <p>Formu doldurun, ən qısa müddətdə sizinlə əlaqə saxlayacağıq.</p>
+            </div>
+
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Adınız</label>
+                    <input type="text" id="name" name="name" placeholder="Məsələn: Əli Həsənov" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-poçt ünvanı</label>
+                    <input type="email" id="email" name="email" placeholder="sizin@email.az" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Mövzu</label>
+                    <select id="subject" name="subject">
+                        <option value="">— Mövzu seçin —</option>
+                        <option value="order">Sifariş haqqında</option>
+                        <option value="return">Qaytarma / Dəyişmə</option>
+                        <option value="product">Məhsul sualı</option>
+                        <option value="other">Digər</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mesajınız</label>
+                    <textarea id="message" name="message" placeholder="Mesajınızı bura yazın..."></textarea>
+                </div>
+
+                <button type="submit" class="form-submit">Göndər</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 <span>AzeShop</span> — Bütün hüquqlar qorunur.</p>
+    </footer>
+</body>
+
+</html>
